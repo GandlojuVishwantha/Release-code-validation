@@ -5,7 +5,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-        - dev
+        - feature*
     paths:
         - 'src/main/default/**'
         - 'src-access-mgmt/main/default/**'
